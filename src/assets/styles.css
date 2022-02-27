@@ -1,5 +1,9 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+
 .navbar__logo{
-    width: 150px;
+    width: 125px;
+}
+.navabar__bg{
+    background-color: #2E4159;
 }
