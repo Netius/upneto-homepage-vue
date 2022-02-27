@@ -26,17 +26,38 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" title="About me" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="My projects" href="#project"
-                >Projects</a
-              >
+              <a class="nav-link" title="Projects" href="#project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" title="Contact me" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto flex-row mb-2 mb-lg-0">
+            <li class="nav-item me-3 me-lg-0">
+              <a
+                class="nav-link fs-4"
+                title="My github repository"
+                target="_blank"
+                rel="noreferer"
+                href="https://github.com/Netius/"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-4"
+                title="My linkedinn"
+                target="_blank"
+                rel="noreferer"
+                href="https://www.linkedin.com/in/fabio-neto-57785518b/"
+                ><i class="bi bi-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
