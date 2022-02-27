@@ -1,10 +1,10 @@
 <script setup>
-// import HelloWorld from "./components/HelloWorld.vue";
-// import TheWelcome from "./components/TheWelcome.vue";
+import NavigationBar from "./components/NavigationBar.vue";
 </script>
 
 <template>
   <div>
+    <NavigationBar />
     <h1>Upneto</h1>
   </div>
 </template>
