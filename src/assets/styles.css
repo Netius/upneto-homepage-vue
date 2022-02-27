@@ -1,6 +1,4 @@
-h1{
-    font-size: 50px;
-}
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 .navbar__logo{
     width: 150px;
