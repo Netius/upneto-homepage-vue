@@ -1,12 +1,16 @@
 <script setup>
 import NavigationBar from "./components/NavigationBar.vue";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import ContactForm from "./components/ContactForm.vue";
 import FooterPage from "./components/FooterPage.vue";
 </script>
 
 <template>
   <div>
     <NavigationBar />
+    <div class="container">
+      <ContactForm />
+    </div>
     <FooterPage />
   </div>
 </template>

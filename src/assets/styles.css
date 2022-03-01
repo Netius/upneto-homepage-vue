@@ -1,13 +1,32 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "bootstrap-icons/font/bootstrap-icons.css";
-
+body{
+    background-color: #F9F9F9;
+}
 .navbar__logo{
     width: 125px;
 }
 .navabar__bg{
     background-color: #2E4159;
 }
+.secondary__bg{
+    background-color: #F2C572;
+}
+
+.btn__primary{
+    background-color: #4E3C59;
+    color: white;
+}
+
+.btn__primary:hover{
+    background-color: #4e3c59c2;
+    color: white;
+}
+
+.contact__queries{
+    padding: 5em 3em;
+}
 
 .footer__text{
-    font-size: 14px;
+    font-size: 15px;
 }
