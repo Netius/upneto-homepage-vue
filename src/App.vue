@@ -1,12 +1,13 @@
 <script setup>
 import NavigationBar from "./components/NavigationBar.vue";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import FooterPage from "./components/FooterPage.vue";
 </script>
 
 <template>
   <div>
     <NavigationBar />
-    <h1>Upneto</h1>
+    <FooterPage />
   </div>
 </template>
 

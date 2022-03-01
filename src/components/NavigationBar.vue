@@ -1,8 +1,3 @@
-<script>
-// import HelloWorld from "./components/HelloWorld.vue";
-// import logo-upneto from "./components/TheWelcome.vue";
-</script>
-
 <template>
   <header role="banner">
     <nav class="navbar navbar-expand-lg navbar-dark text-white navabar__bg">
