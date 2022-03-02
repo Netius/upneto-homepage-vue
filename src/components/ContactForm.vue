@@ -7,7 +7,7 @@
         <h1>Any queries <i class="bi bi-patch-question-fill fs-1"></i></h1>
       </div>
       <div class="col">
-        <form id="contactForm">
+        <form id="contactForm" action="/send_form_email.php" method="post">
           <div class="mb-3">
             <input
               class="form-control"
