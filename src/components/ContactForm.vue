@@ -47,7 +47,7 @@ export default {
       </div>
       <div class="col">
         <form
-          id="contactForm"
+          name="contactForm"
           @submit="checkForm"
           action="./send_form_email.php"
           method="post"
