@@ -47,7 +47,7 @@ export default {
       </div>
       <div class="col">
         <form
-          name="contactForm"
+          name="contactform"
           @submit="checkForm"
           action="./send_form_email.php"
           method="post"
@@ -98,6 +98,7 @@ export default {
               title="Send email"
               class="btn btn__primary btn-lg"
               type="submit"
+              name="submit"
             >
               Send
             </button>
