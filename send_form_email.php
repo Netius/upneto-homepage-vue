@@ -16,11 +16,36 @@ mail($to, $subject, $message, $headers);
 
 <!-- include your own success html here -->
 
-<p style="font-size: 18px; margin: 20px;">THANK YOU for contacting me! I will contact you soon.</p>
-<p style="color: green; font-size: 18px; margin: 20px;">Returning to www.upneto.com 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thank you</title>
+	<style>
+	    .d-flex{
+	        display: flex;
+	        flex-direction: column;
+	        align-items: center;
+	    }
+	    .text-center{
+	        text-align: center;
+	    }
+	</style>
+</head>
+<body class="d-flex">
+    <img src="thank-you.png" alt="Thank you image" width="350">
+	<h1>Message sendt!</h1>
+	<div class="text-center">
+		<p class="main-content__body">Thanks for contacting me. I will answer you as soon as possible.</p>
+		<p>Redirecting to <b>www.upneto.com</b></p>
+	</div>
+
+</body>
+</html>
 
 <script>
   // Sendes user back to front page after submitting form
     window.setTimeout(function() {
-    window.location.href = 'https://upneto.com/index.html';}, 6000);
+    window.location.href = 'https://upneto.com/index.html';}, 4000);
 </script>
