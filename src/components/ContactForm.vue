@@ -1,34 +1,61 @@
 <script>
-  export default {
-    data() {
-      return {
-        errors: [],
-        name: null,
-        emailAddress: null,
-        message: null
+export default {
+  data() {
+    return {
+      errors: [],
+      name: null,
+      emailAddress: null,
+      message: null
+    }
+  },
+  methods: {
+    checkForm() {
+      if (this.name && this.emailAddress && this.message) {
+        return true;
+      }
+
+      this.errors = [];
+
+      if (!this.name) {
+        this.errors.push('Name required.');
+      }
+      if (!this.emailAddress) {
+        this.errors.push('Email required.');
+      }
+      if (!this.message) {
+        this.errors.push('Message required.');
       }
     }
   }
+}
 
 </script>
 
 <template>
-  <section id="contact" class="container my-5">
+  <section
+    id="contact"
+    class="container my-5"
+  >
     <div class="row d-block d-md-flex">
-      <div
-        class="col secondary__bg align-self-center text-center rounded contact__queries text-dark my-3"
-      >
-        <h1>Any queries <i class="bi bi-patch-question-fill fs-1"></i></h1>
+      <div class="col secondary__bg align-self-center text-center rounded contact__queries text-dark my-3">
+        <h1>Any queries
+          <i class="bi bi-patch-question-fill fs-1"></i>
+        </h1>
       </div>
       <div class="col">
-        <form id="contactForm" 
-              @submit.prevent="checkForm"
-              action="send_form_email.php" 
-              method="post">
+        <form
+          id="contactForm"
+          @submit="checkForm"
+          action="send_form_email.php"
+          method="post"
+        >
           <div v-if="errors.length">
             <b>Please correct the following error(s):</b>
             <ul>
-              <li v-for="error in errors">{{ error }}</li>
+              <li
+                v-for="error in errors"
+                :key="error.index"
+              >{{ error }}</li>
             </ul>
           </div>
           <div class="mb-3">
@@ -38,7 +65,6 @@
               v-model="name"
               type="text"
               placeholder="Name"
-              required
             />
           </div>
 
@@ -49,7 +75,6 @@
               v-model="emailAddress"
               type="email"
               placeholder="Email address"
-              required
             />
           </div>
 
@@ -60,17 +85,17 @@
               v-model="message"
               type="text"
               placeholder="Message"
-              required
             ></textarea>
           </div>
 
           <div class="d-grid">
-            <button class="btn btn__primary btn-lg" type="submit">Send</button>
+            <button
+              class="btn btn__primary btn-lg"
+              type="submit"
+            >Send</button>
           </div>
-        </form>
-        {{name}} {{message}} {{emailAddress}}
-        dasdsadas
+          </form>
       </div>
     </div>
-  </section>
+    </section>
 </template>
