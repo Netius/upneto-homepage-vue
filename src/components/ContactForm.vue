@@ -28,6 +28,7 @@ export default {
         return true;
       } else {
         e.preventDefault();
+        return false;
       }
     },
   },

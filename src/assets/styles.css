@@ -30,3 +30,22 @@ body{
 .footer__text{
     font-size: 15px;
 }
+
+.skillsets__container{
+    min-height: 450px;
+}
+
+.skillsets__container--icons i{
+    font-size: 50px;
+}
+
+.rotate-bg {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(134deg, #f2c57273 0%, #F2C572 60%);
+    transform: skewY(-3deg);
+    z-index: -1;
+    pointer-events: none;
+}
