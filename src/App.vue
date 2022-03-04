@@ -1,7 +1,9 @@
 <script setup>
-import NavigationBar from "./components/NavigationBar.vue";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import NavigationBar from "./components/NavigationBar.vue";
 import SkillsSets from "./components/SkillsSets.vue";
+import AboutMe from "./components/AboutMe.vue";
 import ContactForm from "./components/ContactForm.vue";
 import FooterPage from "./components/FooterPage.vue";
 </script>
@@ -9,6 +11,7 @@ import FooterPage from "./components/FooterPage.vue";
 <template>
   <div>
     <NavigationBar />
+    <AboutMe />
     <SkillsSets />
     <div class="container">
       <ContactForm />
