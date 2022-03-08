@@ -32,7 +32,7 @@ body{
 }
 
 .skillsets__container{
-    min-height: 450px;
+    min-height: 475px;
 }
 
 .skillsets__container--icons i{
@@ -43,7 +43,7 @@ body{
     position: absolute;
     left: 0px;
     width: 100%;
-    min-height: 400px;
+    min-height: 425px;
     background: linear-gradient(134deg, #a6967794 0%, #A69677 50%);
     transform: skewY(3deg);
     z-index: -1;
@@ -55,9 +55,19 @@ body{
     position: absolute;
     left: 0px;
     width: 100%;
-    min-height: 400px;
+    min-height: 425px;
     background: linear-gradient(134deg, #f2c57273 0%, #F2C572 60%);
     transform: skewY(-3deg);
     z-index: -1;
     pointer-events: none;
+}
+
+@media only screen and (max-width: 770px) {
+    
+.about__image{
+    width: 125px !important;
+}
+.about__text{
+    font-size: 18px !important;
+}
 }
