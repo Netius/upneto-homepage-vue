@@ -37,3 +37,44 @@ h1, h2, h3, h4, h5{
 .footer__text{
     font-size: 15px;
 }
+
+.skillsets__container{
+    min-height: 475px;
+}
+
+.skillsets__container--icons i{
+    font-size: 50px;
+}
+
+.rotate-bg-about{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 425px;
+    background: linear-gradient(134deg, #685e49 2%, #A69677 99%);
+    transform: skewY(3deg);
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+.rotate-bg {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 425px;
+    background: linear-gradient(134deg, #f2c57273 0%, #F2C572 99%);
+    transform: skewY(-3deg);
+    z-index: -1;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 770px) {
+    
+.about__image{
+    width: 125px !important;
+}
+.about__text{
+    font-size: 18px !important;
+}
+}
