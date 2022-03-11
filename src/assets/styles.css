@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5{
 
 .navbar__logo{
     width: 125px;
+    padding-bottom: 5px;
 }
 .navabar__bg{
     background-color: #2E4159;
@@ -28,6 +29,14 @@ h1, h2, h3, h4, h5{
 .btn__primary:hover{
     background-color: #4e3c59c2;
     color: white;
+}
+
+.link__primary{
+    color: #4E3C59;
+}
+
+.link__primary:hover{
+    color: #4e3c59c2;
 }
 
 .contact__queries{

@@ -6,7 +6,7 @@
           <img
             class="navbar__logo"
             alt="UPNETO logo"
-            src="../assets/logo-upneto.png"
+            src="../assets/logo-upneto.svg"
           />
         </a>
         <button
