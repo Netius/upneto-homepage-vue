@@ -36,7 +36,7 @@ export default {
 </script>
 
 <template>
-  <section id="contact" class="container my-5">
+  <section id="contact" class="container my-5 pt-5">
     <div class="row d-block d-md-flex">
       <div
         class="col secondary__bg align-self-center text-center rounded contact__queries text-dark my-3"

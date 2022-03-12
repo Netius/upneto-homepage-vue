@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar.vue";
 import Hero from "./components/Hero.vue";
 import SkillsSets from "./components/SkillsSets.vue";
 import AboutMe from "./components/AboutMe.vue";
+import Projects from "./components/Projects.vue";
 import ContactForm from "./components/ContactForm.vue";
 import FooterPage from "./components/FooterPage.vue";
 </script>
@@ -16,6 +17,7 @@ import FooterPage from "./components/FooterPage.vue";
     <AboutMe />
     <SkillsSets />
     <div class="container">
+      <Projects />
       <ContactForm />
     </div>
     <FooterPage />

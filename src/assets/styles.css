@@ -31,6 +31,16 @@ h1, h2, h3, h4, h5{
     color: white;
 }
 
+.btn__outline--primary{
+    color: #4e3c59c2 !important;
+    border-color: #4e3c59c2;
+}
+.btn__outline--primary:hover{
+    color: #302536 !important;
+    border-color: #302536;
+}
+
+
 .link__primary{
     color: #4E3C59;
 }
