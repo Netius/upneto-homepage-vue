@@ -41,10 +41,10 @@ export default {
       <div
         class="col secondary__bg align-self-center text-center rounded contact__queries text-dark my-3"
       >
-        <h1>
+        <h2 class="fs-2">
           Any queries
           <i class="bi bi-patch-question-fill fs-1"></i>
-        </h1>
+        </h2>
       </div>
       <div class="col">
         <form

@@ -1,8 +1,8 @@
 <template>
     <main role="main">
-        <article class="container col-xxl-8 g-5 py-5">
+        <article class="container col-xxl-8 g-5 py-2 py-md-5 pb-5">
             <div class="row flex-lg-row-reverse align-items-center g-3 py-5">
-                <div class="col-10 col-sm-8 mb-3 col-lg-6">
+                <div class="col-12 col-md-10 mb-3 col-lg-6">
                     <img
                         src="../assets/logo-hero.svg"
                         class="d-block mx-lg-auto img-fluid"
@@ -15,10 +15,13 @@
                     <h1 class="display-5 fw-bold lh-1 mb-1">Fabio Neto</h1>
                     <p class="lead">FRONT-END DEVELOPER STUDENT</p>
                     <div class="d-grid gap-2 mt-4 d-md-flex justify-content-md-start">
-                        <button
-                            type="button"
+                        <a
+                            title="Resume on Linkedin"
                             class="btn btn__primary btn-lg "
-                        >Download resume</button>
+                            target="_blank"
+                            rel="noreferer"
+                            href="https://www.linkedin.com/in/fabio-neto-57785518b/"
+                        >Download resume</a>
                     </div>
 
                     <ul class="navbar-nav flex-row mb-2 mt-2 mb-lg-0">
