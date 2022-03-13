@@ -3,29 +3,27 @@
 		<h2 class="fs-2 text-center my-4">Projects</h2>
 
 		<div class="card-group">
-
- <div class="card m-3">
+			<div class="card m-2">
 				<img
-					src="../assets/dogshop.jpg"
+					src="../assets/upneto-site.jpg"
 					class="img-fluid rounded-start"
-					alt="Dogshop"
+					alt="Upneto"
 				/>
 				<div class="card-body">
-					<h5 class="card-title">DogShop</h5>
+					<h5 class="card-title">UPNETO</h5>
 					<p class="card-text pb-4">
-						Semester project done in plain Javascript with administrasjon interface to remove and add more products.<br>
-                        Deployed in Strapi api on Heroku using Cloudinary as third party CMS for images.  
+						My own portfolio website create in Vue3 Cli with contact form using PHP on the server side.
 					</p>
 					<a
 						title="Visit website"
 						class="btn btn__primary me-3 mb-2"
 						target="_blank"
 						rel="noreferer"
-						href="https://upneto.com/htmlcss/dogshop/index.html"
+						href="https://upneto.com"
 						>Website
 					</a>
 
-                    <a
+					<a
 						title="See repository"
 						class="btn btn__outline--primary mb-2"
 						target="_blank"
@@ -39,7 +37,44 @@
 				</div>
 			</div>
 
-			<div class="card m-3">
+			<div class="card m-2">
+				<img
+					src="../assets/dogshop.jpg"
+					class="img-fluid rounded-start"
+					alt="Dogshop"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">DogShop</h5>
+					<p class="card-text pb-4">
+						Semester project done in plain Javascript with administrasjon
+						interface to remove and add more products.<br />
+						Deployed in Strapi api on Heroku using Cloudinary as third party CMS
+						for images.
+					</p>
+					<a
+						title="Visit website"
+						class="btn btn__primary me-3 mb-2"
+						target="_blank"
+						rel="noreferer"
+						href="https://upneto.com/htmlcss/dogshop/index.html"
+						>Website
+					</a>
+
+					<a
+						title="See repository"
+						class="btn btn__outline--primary mb-2"
+						target="_blank"
+						rel="noreferer"
+						href="https://github.com/Netius/reactinterface2"
+						>Github
+					</a>
+					<p class="card-text">
+						<small class="text-muted">Project finished: 16.01.2022</small>
+					</p>
+				</div>
+			</div>
+
+			<div class="card m-2">
 				<img
 					src="../assets/react-appointments.jpg"
 					class="img-fluid rounded-start"
@@ -60,15 +95,14 @@
 						href="https://upneto.com/htmlcss/react-appointments/index.html"
 						>Website
 					</a>
-                    
+
 					<p class="card-text">
 						<small class="text-muted">Project finished: 16.08.2021</small>
 					</p>
 				</div>
 			</div>
-			
 
-            <div class="card m-3">
+			<div class="card m-2">
 				<img
 					src="../assets/ammerudbasket.jpg"
 					class="img-fluid rounded-start"
@@ -77,7 +111,9 @@
 				<div class="card-body">
 					<h5 class="card-title">Ammerud Basket</h5>
 					<p class="card-text pb-4">
-						Side jobb for my basketball klubb. Created a site in Wordpress using Yootheme builder to create a simple and effective website for Ammerud Basket.  
+						Side jobb for my basketball klubb. Created a site in Wordpress using
+						Yootheme builder to create a simple and effective website for
+						Ammerud Basket.
 					</p>
 					<a
 						title="Visit website"
@@ -88,7 +124,7 @@
 						>Website
 					</a>
 
-                    <a
+					<a
 						title="See repository"
 						class="btn btn__outline--primary mb-2"
 						target="_blank"
@@ -101,7 +137,6 @@
 					</p>
 				</div>
 			</div>
-			
 		</div>
 	</section>
 </template>
