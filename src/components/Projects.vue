@@ -3,7 +3,7 @@
 		<h2 class="fs-2 text-center my-4">Projects</h2>
 
 		<div class="card-group">
-			<div class="card m-2">
+			<div class="card m-3">
 				<img
 					src="../assets/upneto-site.jpg"
 					class="img-fluid rounded-start"
@@ -12,7 +12,8 @@
 				<div class="card-body">
 					<h5 class="card-title">UPNETO</h5>
 					<p class="card-text pb-4">
-						My own portfolio website create in Vue3 Cli with contact form using PHP on the server side.
+						My own portfolio website create in Vue3 Cli with contact form using
+						PHP on the server side.
 					</p>
 					<a
 						title="Visit website"
@@ -28,16 +29,16 @@
 						class="btn btn__outline--primary mb-2"
 						target="_blank"
 						rel="noreferer"
-						href="https://github.com/Netius/reactinterface2"
+						href="https://github.com/Netius/upneto-homepage-vue"
 						>Github
 					</a>
 					<p class="card-text">
-						<small class="text-muted">Project finished: 16.01.2022</small>
+						<small class="text-muted">Project finished: 13.03.2022</small>
 					</p>
 				</div>
 			</div>
 
-			<div class="card m-2">
+			<div class="card m-3">
 				<img
 					src="../assets/dogshop.jpg"
 					class="img-fluid rounded-start"
@@ -65,7 +66,7 @@
 						class="btn btn__outline--primary mb-2"
 						target="_blank"
 						rel="noreferer"
-						href="https://github.com/Netius/reactinterface2"
+						href="https://github.com/Netius/DogShop"
 						>Github
 					</a>
 					<p class="card-text">
@@ -73,8 +74,9 @@
 					</p>
 				</div>
 			</div>
-
-			<div class="card m-2">
+		</div>
+		<div class="card-group">
+			<div class="card m-3">
 				<img
 					src="../assets/react-appointments.jpg"
 					class="img-fluid rounded-start"
@@ -96,13 +98,22 @@
 						>Website
 					</a>
 
+					<a
+						title="See repository"
+						class="btn btn__outline--primary mb-2"
+						target="_blank"
+						rel="noreferer"
+						href="https://github.com/Netius/reactinterface2"
+						>Github
+					</a>
+
 					<p class="card-text">
 						<small class="text-muted">Project finished: 16.08.2021</small>
 					</p>
 				</div>
 			</div>
 
-			<div class="card m-2">
+			<div class="card m-3">
 				<img
 					src="../assets/ammerudbasket.jpg"
 					class="img-fluid rounded-start"
@@ -122,15 +133,6 @@
 						rel="noreferer"
 						href="https://www.ammerudbasket.no/"
 						>Website
-					</a>
-
-					<a
-						title="See repository"
-						class="btn btn__outline--primary mb-2"
-						target="_blank"
-						rel="noreferer"
-						href="https://github.com/Netius/reactinterface2"
-						>Github
 					</a>
 					<p class="card-text">
 						<small class="text-muted">Project finished: still going</small>
