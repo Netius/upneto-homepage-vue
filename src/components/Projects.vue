@@ -10,7 +10,7 @@
 					alt="Upneto"
 				/>
 				<div class="card-body">
-					<h5 class="card-title">UPNETO</h5>
+					<h3 class="card-title fs-4 fs-4">UPNETO</h3>
 					<p class="card-text pb-4">
 						My own portfolio website create in Vue3 Cli with contact form using
 						PHP on the server side.
@@ -45,7 +45,7 @@
 					alt="Dogshop"
 				/>
 				<div class="card-body">
-					<h5 class="card-title">DogShop</h5>
+					<h3 class="card-title fs-4 fs-4">DogShop</h3>
 					<p class="card-text pb-4">
 						Semester project done in plain Javascript with administrasjon
 						interface to remove and add more products.<br />
@@ -83,7 +83,7 @@
 					alt="React appointments"
 				/>
 				<div class="card-body">
-					<h5 class="card-title">React Appointments</h5>
+					<h3 class="card-title fs-4 fs-4">React Appointments</h3>
 					<p class="card-text pb-4">
 						I did this project to learn more about hooks, conditional classes,
 						and toggle items by passing the state to a sub-component and using
@@ -120,7 +120,7 @@
 					alt="Ammerud Basket"
 				/>
 				<div class="card-body">
-					<h5 class="card-title">Ammerud Basket</h5>
+					<h3 class="card-title fs-4 fs-4">Ammerud Basket</h3>
 					<p class="card-text pb-4">
 						Side jobb for my basketball klubb. Created a site in Wordpress using
 						Yootheme builder to create a simple and effective website for
