@@ -26,7 +26,7 @@
               <a class="nav-link" title="About me" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Projects" href="#project">Projects</a>
+              <a class="nav-link" title="Projects" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" title="Contact me" href="#contact">Contact</a>
