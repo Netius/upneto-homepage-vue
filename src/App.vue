@@ -16,10 +16,9 @@ import FooterPage from "./components/FooterPage.vue";
     <Hero />
     <AboutMe />
     <SkillsSets />
-    <div class="container">
-      <Projects />
-      <ContactForm />
-    </div>
+    <Projects />
+    <ContactForm />
+
     <FooterPage />
   </div>
 </template>

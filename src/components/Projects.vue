@@ -1,5 +1,5 @@
 <template>
-	<section id="projects">
+	<section id="projects" class="container">
 		<h2 class="fs-2 text-center my-4">Projects</h2>
 
 		<div class="card-group">
