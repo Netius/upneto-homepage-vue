@@ -47,13 +47,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-
-
-
-
 		<div class="card-group">
 			<div class="card m-3">
 				<img src="../assets/js-famework-ca-hero.png " class="img-fluid rounded-start"
@@ -77,13 +70,15 @@
 					</p>
 				</div>
 			</div>
-
 			<div class="card m-3">
 				<img src="../assets/holidaze-exam-2.jpg " class="img-fluid rounded-start" alt="Holidaze" />
 				<div class="card-body">
 					<h3 class="card-title fs-4 fs-4">Project Exam 2 - Holidaze</h3>
 					<p class="card-text pb-4">
-						xxx
+						Exam project created i React with administrasjon
+						interface to add, edit, remove hotels and reviews.<br />
+						Deployed in Strapi API on Heroku using Cloudinary as third party CMS
+						for images uploaded on the project.
 					</p>
 					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com/htmlcss/holidaze/index.html">Website
