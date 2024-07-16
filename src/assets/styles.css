@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5{
     pointer-events: none;
 }
 
+.about__image{
+    width: 250px !important;
+}
+
 @media only screen and (max-width: 770px) {
     
 .about__image{
