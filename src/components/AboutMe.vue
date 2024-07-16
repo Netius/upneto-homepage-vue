@@ -10,7 +10,7 @@
 			<div class="row mt-4">
 				<div class="col-md-4 col-sm-12 text-center p-0">
 					<img
-					    src="../assets/foto.png"
+					    src="../assets/foto.jpg"
 					    title="Fabio Neto"
 					    class="w-50 img-thumbnail rounded about__image"
 					    alt="Fabio Neto image"

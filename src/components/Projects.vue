@@ -11,9 +11,9 @@
 						My own portfolio website create in Vue3 Cli with contact form using
 						PHP on the server side.
 					</p>
-					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
+					<!-- <a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com">Website
-					</a>
+					</a> -->
 
 					<a title="See repository" class="btn btn__outline--primary mb-2" target="_blank" rel="noreferer"
 						href="https://github.com/Netius/upneto-homepage-vue">Github
@@ -34,9 +34,9 @@
 						Deployed in Strapi api on Heroku using Cloudinary as third party CMS
 						for images.
 					</p>
-					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
+					<!-- <a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com/htmlcss/dogshop/index.html">Website
-					</a>
+					</a> -->
 
 					<a title="See repository" class="btn btn__outline--primary mb-2" target="_blank" rel="noreferer"
 						href="https://github.com/Netius/DogShop">Github
@@ -57,9 +57,9 @@
 						Course assignment bootstrapped with Create React App and using WordPress site as Rest API to
 						retrieve data and security login.
 					</p>
-					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
+					<!-- <a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com/htmlcss/js-frameworks-ca/index.html">Website
-					</a>
+					</a> -->
 
 					<a title="See repository" class="btn btn__outline--primary mb-2" target="_blank" rel="noreferer"
 						href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Netius">Github
@@ -80,9 +80,9 @@
 						Deployed in Strapi API on Heroku using Cloudinary as third party CMS
 						for images uploaded on the project.
 					</p>
-					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
+					<!-- <a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com/htmlcss/holidaze/index.html">Website
-					</a>
+					</a> -->
 
 					<a title="See repository" class="btn btn__outline--primary mb-2" target="_blank" rel="noreferer"
 						href="https://github.com/Netius/holidaze-app">Github
@@ -112,9 +112,9 @@
 						and toggle items by passing the state to a sub-component and using
 						values to hide or show sub-components. (by inLearning)
 					</p>
-					<a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
+					<!-- <a title="Visit website" class="btn btn__primary me-3 mb-2" target="_blank" rel="noreferer"
 						href="https://upneto.com/htmlcss/react-appointments/index.html">Website
-					</a>
+					</a> -->
 
 					<a title="See repository" class="btn btn__outline--primary mb-2" target="_blank" rel="noreferer"
 						href="https://github.com/Netius/reactinterface2">Github
